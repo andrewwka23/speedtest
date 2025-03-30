@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест скорости печати</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Тест скорости печати</h1>
+        <p id="sample-text">Нажмите "Начать", чтобы получить текст для печати.</p>
+        <textarea id="input-text" placeholder="Начните печатать здесь..." disabled></textarea>
+        <button id="start-btn">Начать</button>
+        <div id="results">
+            <p>Скорость (слов в минуту): <span id="wpm">0</span></p>
+            <p>Точность: <span id="accuracy">0%</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
